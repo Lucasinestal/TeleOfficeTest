@@ -1,0 +1,99 @@
+body {
+    background-color: #F5F7FB;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.blurred {
+    opacity: .5;
+}
+
+#app {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#app h2 {
+    margin-left: 30px;
+}
+
+#container {
+    margin: 5%;
+    color: white;
+}
+
+#container h3 {
+    color: black;
+    margin-left: 10px;
+}
+
+
+
+#modal {
+    display:flex;
+    align-self:center;
+    background-color: white;
+    position:absolute;
+    top: 25%;
+    display:flex;
+    width: 60%;
+    height: 45%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.userListItem {
+    display:flex;
+    background-color: white;    
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+.unToggled {
+    visibility: hidden;
+}
+
+.toggled {
+  visibility: visible;
+  background-color: white;
+}
+
+#modal-content {
+    width: 100%;
+    margin-left: 30px;
+}
+
+#modal-content h2 {
+    margin-left: 0px;
+}
+
+#modal-content img {
+    width: 150px;
+    margin: 40px 30px 0px 0px ;
+    border-radius: 15px;
+}
+
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 0px 50px;
+    color: white;
+    background-color: #422ed2;
+}
+
+#close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f23e3e;
+}
+

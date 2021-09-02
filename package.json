@@ -1,0 +1,22 @@
+{
+  "name": "teleofficetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucasinestal/TeleOfficeTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucasinestal/TeleOfficeTest/issues"
+  },
+  "homepage": "https://github.com/Lucasinestal/TeleOfficeTest#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
